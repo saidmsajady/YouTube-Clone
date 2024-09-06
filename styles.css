@@ -1,0 +1,22 @@
+.div1 {
+    display: grid; 
+    grid-template-columns: 100px 100px;
+}
+
+.div2 {
+    margin-top: 30px;
+    display: grid; 
+    grid-template-columns: 100px 100px 200px;
+}
+
+.div3 {
+    margin-top: 30px;
+    display: grid; 
+    grid-template-columns: 100px 1fr;
+}
+
+.div4 {
+    margin-top: 30px;
+    display: grid; 
+    grid-template-columns: 100px 1fr 2fr;
+}
